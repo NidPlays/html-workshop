@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("./to_do.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: burlywood;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }  
+
+.header {
+    background-color: tomato;
+    color: white;
+    padding:  10px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+nav{
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.links{
+    color: white;
+    text-decoration: none;
+    transition: all .5s;
+}
+
+.links:hover{
+    color: rgb(34, 33, 33); 
+}
+
+.container {
+/*     background-color: cornsilk;
+ */    width: 85%;
+    margin: 50px auto;
+    height: 80vh;
+}
+
+.task_input_bar{
+    background-color: burlywood;
+    width:  100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.task_input{
+    width: 80%;
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+    opacity: .8;
+}
+
+.task_input:focus{
+    opacity: 1;
+}
+
+.button_add{
+    align-self: auto;
+    border: none;
+    background-color: tomato;
+    color: white;
+    width: 15%;
+    font-size: 20px;
+    transition: all .5s;
+}
+
+.button_add:hover{
+    color: rgb(34, 33, 33); 
+    background-color: rgb(240, 143, 126);
+    transform: translateY(-10%);
+}
+
+.task_list{
+    width:  70%;
+    margin: 70px auto;
+    padding: 15px;
+    font-size: 20px;
+/*     background-color: tomato;
+ */}
+
+.task {
+    padding: 10px;
+    background-color: tomato;
+    color: white;
+    margin: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.delete_btn{
+    color:  black;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+    transition: all 0.5s;
+}
+
+.delete_btn:hover{
+    color: tomato;
+}
