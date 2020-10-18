@@ -122,3 +122,8 @@ nav{
 .delete_btn:hover{
     color: tomato;
 }
+
+.input_text {
+    text-decoration: none;
+    transition: all 0.5s;
+}
