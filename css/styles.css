@@ -5,12 +5,14 @@
 }
 
 body {
-     display: fixed; 
-    background: #ffdde1;  /* fallback for old browsers */ 
-    /* background: -webkit-linear-gradient(to top, #ffdde1, #ee9ca7);  Chrome 10-25, Safari 5.1-6 */ 
-    /*background: linear-gradient(to top, #ffdde1, #ee9ca7);  W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   /*  display: fixed; */
+    background: #ee9ca7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #ffdde1, #ee9ca7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #ffdde1, #ee9ca7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     bottom: 0;
+    height: auto;
+    background-repeat: no-repeat;
 }  
 
 .header {
@@ -54,7 +56,7 @@ nav{
 /*     background-color: cornsilk;
  */    width: 85%;
     margin: 50px auto;
-    height: 80vh;
+     height: 100vh; 
 }
 
 .task_input_bar{
