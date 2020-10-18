@@ -10,7 +10,6 @@ body {
     background: -webkit-linear-gradient(to top, #ffdde1, #ee9ca7);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to top, #ffdde1, #ee9ca7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: auto;
     bottom: auto;
 }  
 
@@ -32,6 +31,7 @@ body {
     display: inherit;
     justify-content: space-between;
     position: fixed;
+    bottom: 0;
 }
 
 nav{
