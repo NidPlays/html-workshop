@@ -5,10 +5,10 @@
 }
 
 body {
-    background-image: url("C:\Users\Nidish\Desktop\html workshop\to_do.jpg");
-    background-repeat: no-repeat;
+    background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+   /*  background-repeat: no-repeat;
     background-size: cover;
-    background-color: burlywood;
+    background-color: burlywood;  */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }  
 
@@ -19,6 +19,16 @@ body {
     display: flex;
     justify-content: space-between;
     font-size: 20px;
+}
+
+.myfooter {
+    background-color: tomato;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    padding-bottom: 10vh;
 }
 
 nav{
@@ -45,13 +55,15 @@ nav{
 }
 
 .task_input_bar{
-    background-color: burlywood;
+    /* background-color: burlywood;
+    opacity: 0.5; */
     width:  100%;
     display: flex;
     justify-content: space-between;
 }
 
 .task_input{
+    opacity: 1;
     width: 80%;
     font-size: 20px;
     padding: 10px;
