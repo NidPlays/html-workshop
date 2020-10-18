@@ -5,15 +5,14 @@
 }
 
 body {
+    display: fixed;
     background: #ee9ca7;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to top, #ffdde1, #ee9ca7);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to top, #ffdde1, #ee9ca7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-   /*  background-repeat: no-repeat;
-    background-size: cover;
-    background-color: burlywood;  */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  }  
+    margin: auto;
+    bottom: auto;
+}  
 
 .header {
     background-color: tomato;
@@ -30,12 +29,9 @@ body {
     color: white;
     font-size: 20px;
     padding: 10px;
-    display: flex;
+    display: inherit;
     justify-content: space-between;
     position: fixed;
-    bottom: 0;
-    left: 0;
-
 }
 
 nav{
