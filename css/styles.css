@@ -22,13 +22,17 @@ body {
 }
 
 .myfooter {
+    width: 100%;
     background-color: tomato;
     color: white;
     font-size: 20px;
+    padding: 10px;
     display: flex;
     justify-content: space-between;
-    position: sticky;
-    padding-bottom: 10vh;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+
 }
 
 nav{
