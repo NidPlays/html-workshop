@@ -5,7 +5,10 @@
 }
 
 body {
-    background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+    background: #ee9ca7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #ffdde1, #ee9ca7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #ffdde1, #ee9ca7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
    /*  background-repeat: no-repeat;
     background-size: cover;
     background-color: burlywood;  */
@@ -67,12 +70,11 @@ nav{
 }
 
 .task_input{
-    opacity: 1;
     width: 80%;
     font-size: 20px;
     padding: 10px;
     border: none;
-    opacity: .8;
+    opacity: .6;
 }
 
 .task_input:focus{
